@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "frayonores:block/muddy_diamond_ore"
+  }
+}

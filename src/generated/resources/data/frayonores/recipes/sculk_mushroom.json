@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "E": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "O": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "OAO",
+    "AEA",
+    "OAO"
+  ],
+  "result": {
+    "item": "frayonores:sculk_mushroom"
+  }
+}

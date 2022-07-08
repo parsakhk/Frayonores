@@ -1,0 +1,72 @@
+{
+  "item.frayonores.antinomy": "Metanoid",
+  "item.frayonores.lead_ingot": "Lead Ingot",
+  "block.frayonores.lead_ore": "Lead Ore",
+  "block.frayonores.lead_deepslate_ore": "Deepslate Lead Ore",
+
+  "item.frayonores.aliminium_ingot": "Aliminium Ingot",
+  "item.frayonores.ore_bell": "Ore Bell",
+  "block.frayonores.aliminium_block": "Aliminium Block",
+  "block.frayonores.aliminium_ore": "Aliminium Ore",
+  "block.frayonores.aliminium_deepslate_ore": "Deepslate Aliminium Ore",
+  "block.frayonores.aliminium_netherrack_ore": "Netherided Aliminium Ore",
+
+  "item.frayonores.terracota_stick": "Terracota Stick",
+
+  "item.frayonores.bolarium_ingot": "Bolarium",
+  "item.frayonores.raw_bolarium": "Stoned Bolarium",
+  "block.frayonores.bolarium_ore": "Bolarium Ore",
+  "block.frayonores.bolarium_block": "Bolarium Block",
+  "item.frayonores.bolarium_sword": "Bolarium Sword",
+  "item.frayonores.bolarium_axe": "Bolarium Axe",
+  "item.frayonores.bolarium_pickaxe": "Bolarium Pickaxe",
+  "item.frayonores.bolarium_shovel": "Bolarium Shovel",
+  "item.frayonores.bolarium_hoe": "Bolarium Hoe",
+
+  "item.frayonores.uranium": "Uranium",
+
+  "block.frayonores.muddy_coal_ore": "Muddy Coal Ore",
+  "block.frayonores.muddy_iron_ore": "Muddy Iron Ore",
+  "block.frayonores.muddy_copper_ore": "Muddy Copper Ore",
+  "block.frayonores.muddy_lapis_ore": "Muddy Lappis Ore",
+  "block.frayonores.muddy_redstone_ore": "Muddy Redstone Ore",
+  "block.frayonores.muddy_emerald_ore": "Muddy Emerald  Ore",
+  "block.frayonores.muddy_diamond_ore": "Muddy Diamond Ore",
+  "block.frayonores.muddy_gold_ore": "Muddy Gold Ore",
+
+  "block.frayonores.stony_log": "Stony Log",
+  "block.frayonores.stony_wood": "Stony Wood",
+  "block.frayonores.stony_planks": "Stony Planks",
+  "block.frayonores.stripped_stony_log": "Stripped Stony Planks",
+  "block.frayonores.stripped_stony_wood": "Stripped Stony Wood",
+  "block.frayonores.stony_sapling": "Stony Tree Sapling",
+  "block.frayonores.letacreate_leaves": "Letacreate Leaves",
+  "block.frayonores.stony_slab": "Stony Slab",
+  "block.frayonores.stony_stairs": "Stony Stairs",
+  "block.frayonores.stony_fence": "Stony Fence",
+  "block.frayonores.stony_wall": "Stony Wall",
+  "block.frayonores.stony_fence_gate": "Stony Fence Gate",
+  "block.frayonores.stony_button": "Stony Button",
+  "block.frayonores.stony_pressure_plate": "Stony Pressure Plate",
+
+  "block.frayonores.stone_alloy_center": "Stone Alloy Center",
+  "block.frayonores.lead_planet": "Lead Planet",
+
+  "block.frayonores.sculky_ambush": "Sculky Ambush",
+  "block.frayonores.sculky_plant_grower": "Sculky Plant Grower",
+  "block.frayonores.sculk_mushroom": "Sculky Mushroom",
+  "block.frayonores.sculk_helmet": "Sculky Helmet",
+  "block.frayonores.sculk_chestplate": "Sculky ChestPlate",
+  "block.frayonores.sculk_leggings": "Sculky Leggings",
+  "block.frayonores.sculk_boots": "Sculky Boots",
+  "block.frayonores.warden_abomination": "Warden's HeartMoon",
+
+
+  "item.frayonores.nicholer_dust": "Nicholer Dust",
+  "block.frayonores.nicholer_block": "Nicholer Block",
+  "block.frayonores.nicholer_endstone_ore": "Enderide Nicholer Ore",
+  "block.frayonores.nicholer_netherrack_ore": "Netherided Nicholer Ore",
+  "block.frayonores.nicholer_ore": "Nicholer Ore",
+
+  "itemGroup.frayonores": "Frayon Ores Tab"
+}

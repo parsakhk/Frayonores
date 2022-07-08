@@ -1,0 +1,5 @@
+{
+  "type": "frayonores:ores",
+  "biomes": "#minecraft:is_overworld",
+  "feature": "frayonores:aliminium_ore_placed"
+}

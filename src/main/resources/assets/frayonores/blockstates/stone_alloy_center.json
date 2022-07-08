@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "frayonores:block/stone_alloy_center" },
+    "facing=east": { "model": "frayonores:block/stone_alloy_center", "y": 90 },
+    "facing=south": { "model": "frayonores:block/stone_alloy_center", "y": 180 },
+    "facing=west": { "model": "frayonores:block/stone_alloy_center", "y": 270 }
+  }
+}

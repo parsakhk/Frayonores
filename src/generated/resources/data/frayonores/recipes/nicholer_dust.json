@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frayonores:nicholer_block"
+    }
+  ],
+  "result": {
+    "item": "frayonores:nicholer_dust"
+  }
+}

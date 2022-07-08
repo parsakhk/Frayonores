@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "frayonores:nicholer_ore",
+    "frayonores:nicholer_endstone_ore",
+    "frayonores:nicholer_netherrack_ore",
+    "frayonores:nicholer_block",
+    "frayonores:aliminium_block",
+    "frayonores:bolarium_block",
+    "frayonores:bolarium_ore",
+    "frayonores:aliminium_ore",
+    "frayonores:aliminium_deepslate_ore",
+    "frayonores:aliminium_netherrack_ore",
+    "frayonores:lead_ore",
+    "frayonores:lead_deepslate_ore",
+    "frayonores:muddy_coal_ore",
+    "frayonores:muddy_copper_ore",
+    "frayonores:muddy_iron_ore",
+    "frayonores:muddy_gold_ore",
+    "frayonores:muddy_lapis_ore",
+    "frayonores:muddy_redstone_ore",
+    "frayonores:muddy_emerald_ore",
+    "frayonores:muddy_diamond_ore",
+
+  ]
+}

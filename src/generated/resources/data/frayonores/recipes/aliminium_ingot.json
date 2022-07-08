@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frayonores:aliminium_block"
+    }
+  ],
+  "result": {
+    "item": "frayonores:aliminium_ingot"
+  }
+}

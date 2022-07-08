@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "E": {
+      "item": "minecraft:deepslate"
+    },
+    "O": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "OAO",
+    " E "
+  ],
+  "result": {
+    "item": "frayonores:sculky_plant_grower"
+  }
+}

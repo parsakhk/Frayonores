@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "frayonores:block/lead_planet" },
+    "facing=east": { "model": "frayonores:block/lead_planet", "y": 90 },
+    "facing=south": { "model": "frayonores:block/lead_planet", "y": 180 },
+    "facing=west": { "model": "frayonores:block/lead_planet", "y": 270 }
+  }
+}

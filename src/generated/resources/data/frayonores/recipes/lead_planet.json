@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_planks"
+    },
+    "E": {
+      "item": "frayonores:lead_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OEO",
+    "AAA"
+  ],
+  "result": {
+    "item": "frayonores:lead_planet"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "frayonores:aliminium_ingot"
+    },
+    "X": {
+      "item": "frayonores:nicholer_block"
+    },
+    "Y": {
+      "item": "frayonores:lead_ingot"
+    },
+    "Z": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "Z#Z",
+    "Y#Y"
+  ],
+  "result": {
+    "item": "frayonores:ore_bell"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "frayonores:ores",
+  "biomes": "#minecraft:is_nether",
+  "feature": "frayonores:nether_nicholer_ore_placed"
+}

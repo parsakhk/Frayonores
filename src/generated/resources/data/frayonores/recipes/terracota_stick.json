@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "pattern": [
+    "E",
+    "E",
+    "E"
+  ],
+  "result": {
+    "item": "frayonores:terracota_stick"
+  }
+}

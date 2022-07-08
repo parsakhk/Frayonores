@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "frayonores:muddy_coal_ore",
+    "frayonores:muddy_copper_ore",
+    "frayonores:muddy_iron_ore",
+    "frayonores:muddy_gold_ore",
+    "frayonores:muddy_lapis_ore",
+    "frayonores:muddy_redstone_ore",
+    "frayonores:muddy_emerald_ore",
+    "frayonores:muddy_diamond_ore"
+  ]
+}

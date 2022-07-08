@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frayonores:block/stony_slab"
+    },
+    "type=double": {
+      "model": "frayonores:block/stony_plank"
+    },
+    "type=top": {
+      "model": "frayonores:block/stony_slab_top"
+    }
+  }
+}

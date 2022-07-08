@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "frayonores:block/stony_log_top",
+    "side": "frayonores:block/stony_log"
+  }
+}

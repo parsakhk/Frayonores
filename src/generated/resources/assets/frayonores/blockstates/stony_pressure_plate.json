@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "frayonores:block/stony_pressure_plate"
+    },
+    "powered=true": {
+      "model": "frayonores:block/stony_pressure_plate_down"
+    }
+  }
+}

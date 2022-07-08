@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "frayonores:stony_log",
+    "frayonores:stony_wood",
+    "frayonores:stony_plank",
+    "frayonores:stripped_stony_wood",
+    "frayonores:stripped_stony_log"
+  ]
+}

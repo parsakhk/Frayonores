@@ -1,0 +1,8 @@
+{
+  "type": "frayonores:ores",
+  "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes"
+  ],
+  "feature": "frayonores:bolarium_ore_placed"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "frayonores:block/sculky_plant_grower_top",
+    "side": "frayonores:block/sculky_plant_grower"
+  }
+}
