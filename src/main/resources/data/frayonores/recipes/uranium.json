@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:mud"
+    },
+    "Y": {
+      "item": "minecraft:deepslate"
+    },
+    "Z": {
+      "item": "frayonores:raw_bolarium"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "ZYZ",
+    "XXX"
+  ],
+  "result": {
+    "item": "frayonores:uranium"
+  }
+}

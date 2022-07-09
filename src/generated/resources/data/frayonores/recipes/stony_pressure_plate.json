@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "frayonores:stony_plank"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "frayonores:stony_pressure_plate"
+  }
+}

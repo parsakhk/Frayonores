@@ -10,6 +10,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.mrfrayon.frayonores.block.ModBlocks;
+import net.mrfrayon.frayonores.block.custom.nonblocks.NonBlocksRegistry;
 import net.mrfrayon.frayonores.item.ModItems;
 
 import java.util.function.Consumer;
@@ -29,12 +30,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(ModItems.BOLARIUM_SHOVEL.get()).define('C', Items.STICK).define('Y', ModItems.BOLARIUM_INGOT.get()).pattern("Y").pattern("C").pattern("C").unlockedBy("has_bolarium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.BOLARIUM_INGOT.get()).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModItems.BOLARIUM_HOE.get()).define('C', Items.STICK).define('Y', ModItems.BOLARIUM_INGOT.get()).pattern("YY ").pattern(" C ").pattern(" C ").unlockedBy("has_bolarium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.BOLARIUM_INGOT.get()).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModItems.BOLARIUM_SWORD.get()).define('C', Items.STICK).define('Y', ModItems.BOLARIUM_INGOT.get()).pattern(" Y ").pattern(" Y ").pattern(" C ").unlockedBy("has_bolarium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.BOLARIUM_INGOT.get()).build())).save(p_176532_);
-        ShapedRecipeBuilder.shaped(ModItems.TERRACOTA_STICK.get()).define('E', Items.TERRACOTTA).pattern("E").pattern("E").pattern("E").unlockedBy("has_nicholer_dust", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NICHOLER_DUST.get()).build())).save(p_176532_);
+        ShapedRecipeBuilder.shaped(ModItems.TERRACOTA_STICK.get(), 2).define('E', Items.TERRACOTTA).pattern("E").pattern("E").pattern("E").unlockedBy("has_nicholer_dust", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NICHOLER_DUST.get()).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModBlocks.NICHOLER_BLOCK.get()).define('E', ModItems.NICHOLER_DUST.get()).pattern("EEE").pattern("EEE").pattern("EEE").unlockedBy("has_nicholer_dust", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NICHOLER_DUST.get()).build())).save(p_176532_);
-        ShapelessRecipeBuilder.shapeless(ModItems.NICHOLER_DUST.get()).requires(ModBlocks.NICHOLER_BLOCK.get()).unlockedBy("has_nicholer_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.NICHOLER_BLOCK.get()).build())).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ModItems.NICHOLER_DUST.get(), 4).requires(ModBlocks.NICHOLER_BLOCK.get()).unlockedBy("has_nicholer_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.NICHOLER_BLOCK.get()).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModBlocks.LEAD_PLANET.get()).define('E', ModItems.LEAD_INGOT.get()).define('O', Items.OBSIDIAN).define('A', Items.ACACIA_PLANKS).pattern("OOO").pattern("OEO").pattern("AAA").unlockedBy("has_nicholer_dust", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NICHOLER_DUST.get()).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModBlocks.SCULKY_MUSHROOM_GROWER.get()).define('E', Blocks.DEEPSLATE).define('O', Blocks.SCULK).define('A', Blocks.SCULK_SENSOR).pattern("OAO").pattern(" E ").unlockedBy("has_sculk", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SCULK).build())).save(p_176532_);
         ShapedRecipeBuilder.shaped(ModBlocks.SCULK_MUSHROOM.get()).define('E', Blocks.BROWN_MUSHROOM).define('O', Blocks.SCULK).define('A', Blocks.SCULK_SENSOR).pattern("OAO").pattern("AEA").pattern("OAO").unlockedBy("has_sculk", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.SCULK).build())).save(p_176532_);
 
+        ShapelessRecipeBuilder.shapeless(NonBlocksRegistry.STONY_BUTTON.get()).requires(ModBlocks.STONY_PLANK.get()).unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+        ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_FENCE.get()).define('W', ModBlocks.STONY_PLANK.get()).define('#', Items.STICK).pattern("W#W").pattern("W#W").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+        ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_FENCE_GATE.get()).define('W', ModBlocks.STONY_PLANK.get()).define('#', Items.STICK).pattern("#W#").pattern("#W#").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+        ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_PRESSURE_PLATE.get()).define('#', ModBlocks.STONY_PLANK.get()).pattern("##").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+        ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_SLAB.get(), 6).define('#', ModBlocks.STONY_PLANK.get()).pattern("###").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+         ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_STAIRS.get(), 4).define('#', ModBlocks.STONY_PLANK.get()).pattern("#  ").pattern("## ").pattern("###").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+         ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_WALL.get(), 12).define('#', ModBlocks.STONY_PLANK.get()).pattern("###").pattern("###").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
+         ShapedRecipeBuilder.shaped(NonBlocksRegistry.STONY_TRAPDOOR.get(), 2).define('#', ModBlocks.STONY_PLANK.get()).pattern("###").pattern("###").unlockedBy("has_stony_planks", inventoryTrigger(ItemPredicate.Builder.item().of(Blocks.OAK_PLANKS).build())).save(p_176532_);
     }
 }

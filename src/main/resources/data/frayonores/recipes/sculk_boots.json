@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:sculk"
+    },
+    "Y": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "A": {
+      "item": "frayonores:warden_abomination"
+    }
+  },
+  "pattern": [
+    "X X",
+    "A Y"
+  ],
+  "result": {
+    "item": "frayonores:sculk_boots"
+  }
+}

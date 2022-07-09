@@ -21,6 +21,13 @@
     "frayonores:muddy_redstone_ore",
     "frayonores:muddy_emerald_ore",
     "frayonores:muddy_diamond_ore",
-
+    "frayonores:stony_trapdoor",
+    "frayonores:stony_stairs",
+    "frayonores:stony_slab",
+    "frayonores:stony_button",
+    "frayonores:stony_wall",
+    "frayonores:stony_fence",
+    "frayonores:stony_fence_gate",
+    "frayonores:stony_pressure_plate"
   ]
 }

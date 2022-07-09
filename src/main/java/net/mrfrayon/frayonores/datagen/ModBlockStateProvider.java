@@ -37,6 +37,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.MUDDY_GOLD_ORE.get());
         simpleBlock(ModBlocks.MUDDY_REDSTONE_ORE.get());
 
+        trapdoorBlock((TrapDoorBlock) NonBlocksRegistry.STONY_TRAPDOOR.get(), blockTexture(NonBlocksRegistry.STONY_TRAPDOOR.get()), true);
+
         //WOODS
         logBlock((RotatedPillarBlock) ModBlocks.STONY_LOG.get());
         axisBlock((RotatedPillarBlock) ModBlocks.STONY_WOOD.get(), blockTexture(ModBlocks.STONY_LOG.get()), blockTexture(ModBlocks.STONY_LOG.get()));

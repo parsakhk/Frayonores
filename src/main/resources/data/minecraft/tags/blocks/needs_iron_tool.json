@@ -19,11 +19,22 @@
     "frayonores:muddy_redstone_ore",
     "frayonores:muddy_emerald_ore",
     "frayonores:muddy_diamond_ore",
-    "frayonores:sculky_plant_grower",
     "frayonores:stony_log",
+    "frayonores:stony_trapdoor",
     "frayonores:stony_wood",
     "frayonores:stony_plank",
     "frayonores:stripped_stony_wood",
-    "frayonores:stripped_stony_log"
+    "frayonores:stripped_stony_log",
+    "frayonores:sculky_ambush",
+    "frayonores:sculky_plant_grower",
+    "frayonores:sculky_mushroom",
+    "frayonores:stony_trapdoor",
+    "frayonores:stony_stairs",
+    "frayonores:stony_slab",
+    "frayonores:stony_button",
+    "frayonores:stony_wall",
+    "frayonores:stony_fence",
+    "frayonores:stony_fence_gate",
+    "frayonores:stony_pressure_plate"
   ]
 }

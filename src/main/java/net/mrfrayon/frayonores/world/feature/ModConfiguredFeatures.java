@@ -58,14 +58,14 @@ public class ModConfiguredFeatures {
 
 
     //MUDDY ORES
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_LAPIS_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_LAPIS_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_REDSTONE_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_REDSTONE_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_IRON_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_IRON_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_GOLD_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_GOLD_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_EMERALD_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_EMERALD_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_DIAMOND_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_DIAMOND_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_COAL_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_COAL_ORE.get().defaultBlockState()));
-    public static final List<OreConfiguration.TargetBlockState> MUDDY_COPPER_ORE = List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MUDDY_COPPER_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_LAPIS_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_LAPIS_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_REDSTONE_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_REDSTONE_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_IRON_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_IRON_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_GOLD_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_GOLD_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_EMERALD_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_EMERALD_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_DIAMOND_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_DIAMOND_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_COAL_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_COAL_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> MUDDY_COPPER_ORE = List.of(OreConfiguration.target(new BlockMatchTest(Blocks.MUD), ModBlocks.MUDDY_COPPER_ORE.get().defaultBlockState()));
     //End of Muddy Ores
 
 

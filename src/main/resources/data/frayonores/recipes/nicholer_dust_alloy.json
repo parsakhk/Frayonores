@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "frayonores:antinomy"
+    },
+    "Y": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "A": {
+      "item": "frayonores:lead_ingot"
+    }
+  },
+  "pattern": [
+    "XYA"
+  ],
+  "result": {
+    "item": "frayonores:nicholer_dust",
+    "count": 3
+  }
+}

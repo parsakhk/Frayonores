@@ -63,7 +63,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SCULKY_MUSHROOM_GROWER = registerBlock("sculky_plant_grower", () -> new ModFlammableRotatablePillarBlock(BlockBehaviour.Properties.copy(Blocks.SCULK)), ModItemGroups.FRAYON_ORE_TAB);
 
 
-    public static final RegistryObject<Block> SCULK_MUSHROOM = registerBlock("sculk_mushroom", () -> new ModSculkMushroomBlock(MobEffects.DARKNESS, 3, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion().noCollission(), () -> ModBlocks.SCULK_AMBUSH.get()), ModItemGroups.FRAYON_ORE_TAB);
+    public static final RegistryObject<Block> SCULK_MUSHROOM = registerBlock("sculk_mushroom", () -> new ModSculkMushroomBlock(MobEffects.DARKNESS, 3, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion().noCollission(), () -> ModBlocks.SCULKY_MUSHROOM_GROWER.get()), ModItemGroups.FRAYON_ORE_TAB);
 
 
     public static final RegistryObject<Block> POTTED_SCULK_MUSHROOM = registerBlockWithoutBlockItem("potted_sculk_mushroom", () -> new FlowerPotBlock(null, ModBlocks.SCULK_MUSHROOM, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));

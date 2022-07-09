@@ -3,6 +3,16 @@
   "values": [
     "frayonores:aliminium_block",
     "frayonores:sculky_ambush",
-    "frayonores:sculky_plant_grower"
+    "frayonores:sculky_plant_grower",
+    "frayonores:sculky_mushroom",
+    "frayonores:stony_trapdoor",
+    "frayonores:stony_trapdoor",
+    "frayonores:stony_stairs",
+    "frayonores:stony_slab",
+    "frayonores:stony_button",
+    "frayonores:stony_wall",
+    "frayonores:stony_fence",
+    "frayonores:stony_fence_gate",
+    "frayonores:stony_pressure_plate"
   ]
 }

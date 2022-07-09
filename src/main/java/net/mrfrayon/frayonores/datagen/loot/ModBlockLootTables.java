@@ -52,7 +52,6 @@ public class ModBlockLootTables extends BlockLoot {
 
         this.dropSelf(ModBlocks.SCULK_AMBUSH.get());
         this.dropSelf(ModBlocks.SCULKY_MUSHROOM_GROWER.get());
-
         this.dropSelf(ModBlocks.SCULK_MUSHROOM.get());
         this.add(ModBlocks.POTTED_SCULK_MUSHROOM.get(), BlockLoot::createPotFlowerItemTable);
     }

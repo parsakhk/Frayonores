@@ -60,6 +60,7 @@ public class FrayonOres
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SCULK_MUSHROOM.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_SCULK_MUSHROOM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(NonBlocksRegistry.STONY_TRAPDOOR.get(), RenderType.translucent());
 
 
 

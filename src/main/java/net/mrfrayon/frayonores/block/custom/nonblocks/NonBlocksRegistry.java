@@ -48,7 +48,10 @@ public class NonBlocksRegistry {
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModItemGroups.FRAYON_ORE_TAB);
 
-    
+    public static final RegistryObject<Block> STONY_TRAPDOOR = registerBlock("stony_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()
+                    .requiresCorrectToolForDrops()), ModItemGroups.FRAYON_ORE_TAB);
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

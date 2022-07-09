@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:oak_sapling"
+    },
+    "Y": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    " Y ",
+    "YXY",
+    " Y "
+  ],
+  "result": {
+    "item": "frayonores:stony_sapling"
+  }
+}

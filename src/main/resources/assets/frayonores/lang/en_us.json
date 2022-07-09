@@ -36,7 +36,7 @@
 
   "block.frayonores.stony_log": "Stony Log",
   "block.frayonores.stony_wood": "Stony Wood",
-  "block.frayonores.stony_planks": "Stony Planks",
+  "block.frayonores.stony_plank": "Stony Planks",
   "block.frayonores.stripped_stony_log": "Stripped Stony Planks",
   "block.frayonores.stripped_stony_wood": "Stripped Stony Wood",
   "block.frayonores.stony_sapling": "Stony Tree Sapling",
@@ -45,6 +45,7 @@
   "block.frayonores.stony_stairs": "Stony Stairs",
   "block.frayonores.stony_fence": "Stony Fence",
   "block.frayonores.stony_wall": "Stony Wall",
+  "block.frayonores.stony_trapdoor": "Stony TrapDoor",
   "block.frayonores.stony_fence_gate": "Stony Fence Gate",
   "block.frayonores.stony_button": "Stony Button",
   "block.frayonores.stony_pressure_plate": "Stony Pressure Plate",
@@ -55,11 +56,11 @@
   "block.frayonores.sculky_ambush": "Sculky Ambush",
   "block.frayonores.sculky_plant_grower": "Sculky Plant Grower",
   "block.frayonores.sculk_mushroom": "Sculky Mushroom",
-  "block.frayonores.sculk_helmet": "Sculky Helmet",
-  "block.frayonores.sculk_chestplate": "Sculky ChestPlate",
-  "block.frayonores.sculk_leggings": "Sculky Leggings",
-  "block.frayonores.sculk_boots": "Sculky Boots",
-  "block.frayonores.warden_abomination": "Warden's HeartMoon",
+  "item.frayonores.sculk_helmet": "Sculky Helmet",
+  "item.frayonores.sculk_chestplate": "Sculky ChestPlate",
+  "item.frayonores.sculk_leggings": "Sculky Leggings",
+  "item.frayonores.sculk_boots": "Sculky Boots",
+  "item.frayonores.warden_abomination": "Warden's HeartMoon",
 
 
   "item.frayonores.nicholer_dust": "Nicholer Dust",

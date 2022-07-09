@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frayonores:stony_plank"
+    }
+  ],
+  "result": {
+    "item": "frayonores:stony_button"
+  }
+}
